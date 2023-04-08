@@ -22,13 +22,16 @@
             <img src="https://svgshare.com/i/ruN.svg" alt="logo" class="navbar-logo">
             <ul class="navbar-menu">
                 <li>
-                    <a href="https://skilvul.com/">Beranda</a>
+                    <a href="#">Beranda</a>
                 </li>
                 <li>
                     <a href="#">Tentang Kami</a>
                 </li>
                 <li>
                     <a href="#">Kontak</a>
+                </li>
+                 <li>
+                    <a  href="https://skilvul.com" id="link">Skilvul</a>
                 </li>
             </ul>
             <button class="navbar-button" >Contact Us</button>
@@ -40,7 +43,7 @@
                 <div class="header-text">
                     <h1>Rasakan Pengalaman Masa Depan Kesehatan dengan Layanan Telemedis Kami
                     </h1>
-                    <p>Platform telemedis kami menghubungkan Anda dengan tenaga medis berlisensi dari kenyamanan rumah Anda. Hanya dengan beberapa klik, Anda dapat mengakses layanan kesehatan berkualitas kapan saja, di mana saja.</p>
+                    <p id="description">Platform telemedis kami menghubungkan Anda dengan tenaga medis berlisensi dari kenyamanan rumah Anda. Hanya dengan beberapa klik, Anda dapat mengakses layanan kesehatan berkualitas kapan saja, di mana saja.</p>
                     <button class="header-button">Learn More</button>
                 </div>
                 <div class="header-image">
@@ -332,30 +335,20 @@
 
 <div class="form-daftar">
     <div class="form-daftar-title">
-        <h2>Daftar Sekarang</h2>
+        <h1>Daftar Sekarang</h1>
         <p>Daftar sekarang untuk mendapatkan informasi terbaru seputar kesehatan</p>
     </div>
-    <div class="form-daftar-item">
-        <form>
-        <label class="label" for="name">Nama</label>
-        <input type="text" id="name"  placeholder="Masukkan Nama Anda" >
-        <label class="label" for="city">Kota</label>
-        <input type="text" id="city"  placeholder="Masukkan Nama Kota Anda">
-        <label class="label" for="email">Email</label>
-        <input type="email" id="email"  placeholder="Masukkan E-mail Anda">
-        <label class="label" for="zip-code">Kode Pos</label>
-        <input type="number" id="zip-code"  placeholder="Masukkan Kode Pos ">
-        
-        <div class="mate">
-            <input type="checkbox" id="status">    
-            <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
-        </div>
-        <div class="pesan">
-            <button type="submit" class="button-pesan" id="submit-form">Submit</button>
+  <form>
+        <input  id="name" type="text" placeholder="Masukkan Nama Anda" >
+        <input  id="city" type="text" placeholder="Masukkan Nama Kota Anda">
+        <input  id="email" type="email" placeholder="Masukkan E-mail Anda">
+        <input  id="zip-code" type="number" placeholder="Masukkan Kode Pos ">
+         <input type="checkbox" id="status">    
+         <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+        <button type="submit" id="submit-form">Submit</button>
+
             <div id="warning"></div>
-        </div>
     </form>
-    </div>
 </div>
 
 <!-- end Form -->
@@ -398,7 +391,7 @@
                       </footer>
                       
                       <div class="footer-bottom">
-                        <p>© 2020 Telemedicine. All rights reserved.</p>
+                        <p>© 2023 Telemedicine. All rights reserved.</p>
 
 
                     <!-- end Footer -->
